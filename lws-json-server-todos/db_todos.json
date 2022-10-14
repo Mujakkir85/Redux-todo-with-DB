@@ -4,13 +4,13 @@
       "id": 1,
       "text": "Learn Vanilla JavaScript",
       "completed": true,
-      "color": "green"
+      "color": "red"
     },
     {
       "id": 2,
       "text": "Learn Modern ES6+ JavaScript",
       "completed": true,
-      "color": "green"
+      "color": "red"
     },
     {
       "id": 3,
@@ -26,49 +26,27 @@
     },
     {
       "text": "Learn Redux fundamentals",
-      "completed": true,
+      "completed": false,
       "id": 5,
       "color": "red"
     },
     {
       "text": "learn Redux",
       "completed": false,
-      "id": 6
+      "id": 6,
+      "color": "green"
     },
     {
       "text": "Learn Redux Toolkit",
       "completed": false,
-      "id": 7
-    },
-    {
-      "text": "Test",
-      "completed": false,
-      "id": 8
+      "id": 7,
+      "color": "yellow"
     },
     {
       "text": "new task",
       "completed": false,
-      "id": 9
-    },
-    {
-      "text": "sdfgsdgf",
-      "completed": false,
-      "id": 10
-    },
-    {
-      "text": "sdfsdkp[[pghk[glhjkghjkghp",
-      "completed": false,
-      "id": 11
-    },
-    {
-      "text": "okkd ",
-      "completed": false,
-      "id": 12
-    },
-    {
-      "text": "iahgfhsd",
-      "completed": false,
-      "id": 13
+      "id": 9,
+      "color": "green"
     }
   ]
 }
