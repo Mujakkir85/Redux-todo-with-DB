@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import cancelImage from "../assets/images/cancel.png";
 import { colorSelected, deleted, toggled } from "../redux/todos/actions";
 import updateStatus from "../redux/todos/thunk/updateStatus";
+import updateColor from "../redux/todos/updateColor";
 
 
 export default function Todo({ todo }) {
@@ -14,7 +15,7 @@ export default function Todo({ todo }) {
     };
 
     const handleColorChange = (todoId, color) => {
-        dispatch(colorSelected(todoId, color));
+        dispatch(updateColor(todoId, color));
     };
 
     const handleDelete = (todoId) => {
