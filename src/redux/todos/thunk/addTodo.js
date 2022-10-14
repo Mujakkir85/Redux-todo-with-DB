@@ -11,7 +11,6 @@ const addTodo = (todoText) =>{
         }),
         headers:{
             "Content-type": "application/json; charset=UTF-8"
-            
         }
        });
        
